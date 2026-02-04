@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     "net8.0": {
-      "Microsoft.Extensions.AI.Abstractions/10.1.1": {
+      "Microsoft.Extensions.AI.Abstractions/10.2.0": {
         "type": "package",
         "dependencies": {
-          "System.Text.Json": "10.0.1"
+          "System.Text.Json": "10.0.2"
         },
         "compile": {
           "lib/net8.0/Microsoft.Extensions.AI.Abstractions.dll": {
@@ -600,11 +600,11 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "ModelContextProtocol/0.6.0-preview.1": {
+      "ModelContextProtocol/0.7.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.Hosting.Abstractions": "10.0.1",
-          "ModelContextProtocol.Core": "0.6.0-preview.1"
+          "Microsoft.Extensions.Hosting.Abstractions": "10.0.2",
+          "ModelContextProtocol.Core": "0.7.0-preview.1"
         },
         "compile": {
           "lib/net8.0/ModelContextProtocol.dll": {
@@ -617,13 +617,13 @@
           }
         }
       },
-      "ModelContextProtocol.Core/0.6.0-preview.1": {
+      "ModelContextProtocol.Core/0.7.0-preview.1": {
         "type": "package",
         "dependencies": {
-          "Microsoft.Extensions.AI.Abstractions": "10.1.1",
-          "Microsoft.Extensions.Logging.Abstractions": "10.0.1",
-          "System.IO.Pipelines": "10.0.1",
-          "System.Net.ServerSentEvents": "10.0.1"
+          "Microsoft.Extensions.AI.Abstractions": "10.2.0",
+          "Microsoft.Extensions.Logging.Abstractions": "10.0.2",
+          "System.IO.Pipelines": "10.0.2",
+          "System.Net.ServerSentEvents": "10.0.2"
         },
         "compile": {
           "lib/net8.0/ModelContextProtocol.Core.dll": {
@@ -694,7 +694,7 @@
           "buildTransitive/net8.0/_._": {}
         }
       },
-      "System.Net.ServerSentEvents/10.0.1": {
+      "System.Net.ServerSentEvents/10.0.2": {
         "type": "package",
         "compile": {
           "lib/net8.0/System.Net.ServerSentEvents.dll": {
@@ -755,10 +755,10 @@
     }
   },
   "libraries": {
-    "Microsoft.Extensions.AI.Abstractions/10.1.1": {
-      "sha512": "cgj8iHv4JwUpcPANZ0oLILz146Y1Oa+l280b1c1a3DjwZflH9nmYcrX952YUuqftz2sheAC2TPCGcEa6unKQgQ==",
+    "Microsoft.Extensions.AI.Abstractions/10.2.0": {
+      "sha512": "ONGlIBht0ygEdKc0bCt9XWUiq19/460dAu7fCKzPM34OFJSMQIohEDTJwjCJ8vVp8znNakloc9xFF9+R/eDCYQ==",
       "type": "package",
-      "path": "microsoft.extensions.ai.abstractions/10.1.1",
+      "path": "microsoft.extensions.ai.abstractions/10.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -774,7 +774,7 @@
         "lib/net9.0/Microsoft.Extensions.AI.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.AI.Abstractions.xml",
-        "microsoft.extensions.ai.abstractions.10.1.1.nupkg.sha512",
+        "microsoft.extensions.ai.abstractions.10.2.0.nupkg.sha512",
         "microsoft.extensions.ai.abstractions.nuspec"
       ]
     },
@@ -1643,10 +1643,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "ModelContextProtocol/0.6.0-preview.1": {
-      "sha512": "onUtGV9yny1rFZQ1qGUp6XPJBB2VxvWXvEioq8+/8hYOX6zEoc/Mc4tX8u7KRhU1mLss48jMh5DHFBMKifMiVw==",
+    "ModelContextProtocol/0.7.0-preview.1": {
+      "sha512": "3Ynk2yAVfZvVXMPGnzIjme8u3FNr/zVItmNH23LWcXiLuSXWqLG8ZSvPqajPxZ4Zjy0kEwQK6DUQwerJiSYfMg==",
       "type": "package",
-      "path": "modelcontextprotocol/0.6.0-preview.1",
+      "path": "modelcontextprotocol/0.7.0-preview.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1660,14 +1660,14 @@
         "lib/netstandard2.0/ModelContextProtocol.dll",
         "lib/netstandard2.0/ModelContextProtocol.xml",
         "logo.png",
-        "modelcontextprotocol.0.6.0-preview.1.nupkg.sha512",
+        "modelcontextprotocol.0.7.0-preview.1.nupkg.sha512",
         "modelcontextprotocol.nuspec"
       ]
     },
-    "ModelContextProtocol.Core/0.6.0-preview.1": {
-      "sha512": "vjpbeJL7O4kNAgwv6wZtqlAAUX/tWaYLtbBzENDablIQfI1bH2tYTD/eK/6JvxP+Qp1H/lXaMvuRM6wohAzauA==",
+    "ModelContextProtocol.Core/0.7.0-preview.1": {
+      "sha512": "epUG6GBe0VGGh/WdP2dTG7Sb2nyBBQM1B6KVNLlBO9v43YLqmj7ZpVPqd5iw83phLListNiv3Yjq7ms1K13uHw==",
       "type": "package",
-      "path": "modelcontextprotocol.core/0.6.0-preview.1",
+      "path": "modelcontextprotocol.core/0.7.0-preview.1",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1682,7 +1682,7 @@
         "lib/netstandard2.0/ModelContextProtocol.Core.dll",
         "lib/netstandard2.0/ModelContextProtocol.Core.xml",
         "logo.png",
-        "modelcontextprotocol.core.0.6.0-preview.1.nupkg.sha512",
+        "modelcontextprotocol.core.0.7.0-preview.1.nupkg.sha512",
         "modelcontextprotocol.core.nuspec"
       ]
     },
@@ -1781,10 +1781,10 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "System.Net.ServerSentEvents/10.0.1": {
-      "sha512": "JFvLk6SHowCHY2fsCIyF/Adp1eM9JY3kF3Vf/t1FrN7mDe6f5/MEvKybRtvayq/JmymZbPxAEKeLvEbiRIYnew==",
+    "System.Net.ServerSentEvents/10.0.2": {
+      "sha512": "pRmUzK1Av9Lqg5tOnk5/0+pFw195eVDP/9gJ2LP0YVPLzOGwjK3Obiutw4CKcJ2Gl9fOYTEc5Za8sB1/xexeGg==",
       "type": "package",
-      "path": "system.net.serversentevents/10.0.1",
+      "path": "system.net.serversentevents/10.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -1805,7 +1805,7 @@
         "lib/net9.0/System.Net.ServerSentEvents.xml",
         "lib/netstandard2.0/System.Net.ServerSentEvents.dll",
         "lib/netstandard2.0/System.Net.ServerSentEvents.xml",
-        "system.net.serversentevents.10.0.1.nupkg.sha512",
+        "system.net.serversentevents.10.0.2.nupkg.sha512",
         "system.net.serversentevents.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -1923,23 +1923,23 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "Microsoft.Extensions.Hosting >= 10.0.2",
-      "ModelContextProtocol >= 0.6.0-preview.1"
+      "ModelContextProtocol >= 0.7.0-preview.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Francesco\\.nuget\\packages\\": {}
+    "/Users/leo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Francesco\\Desktop\\flc\\serverMcp\\serverMcp.csproj",
+      "projectUniqueName": "/Users/leo/Desktop/progetto-flc/tutorial-mcp/serverMcp/serverMcp.csproj",
       "projectName": "serverMcp",
-      "projectPath": "C:\\Users\\Francesco\\Desktop\\flc\\serverMcp\\serverMcp.csproj",
-      "packagesPath": "C:\\Users\\Francesco\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Francesco\\Desktop\\flc\\serverMcp\\obj\\",
+      "projectPath": "/Users/leo/Desktop/progetto-flc/tutorial-mcp/serverMcp/serverMcp.csproj",
+      "packagesPath": "/Users/leo/.nuget/packages/",
+      "outputPath": "/Users/leo/Desktop/progetto-flc/tutorial-mcp/serverMcp/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Francesco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "/Users/leo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -1962,7 +1962,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "10.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -1974,7 +1975,7 @@
           },
           "ModelContextProtocol": {
             "target": "Package",
-            "version": "[0.6.0-preview.1, )"
+            "version": "[0.7.0-preview.1, )"
           }
         },
         "imports": [
@@ -1993,7 +1994,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

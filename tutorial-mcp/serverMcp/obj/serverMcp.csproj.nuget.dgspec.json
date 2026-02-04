@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Francesco\\Desktop\\flc\\serverMcp\\serverMcp.csproj": {}
+    "/Users/leo/Desktop/progetto-flc/tutorial-mcp/serverMcp/serverMcp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Francesco\\Desktop\\flc\\serverMcp\\serverMcp.csproj": {
+    "/Users/leo/Desktop/progetto-flc/tutorial-mcp/serverMcp/serverMcp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Francesco\\Desktop\\flc\\serverMcp\\serverMcp.csproj",
+        "projectUniqueName": "/Users/leo/Desktop/progetto-flc/tutorial-mcp/serverMcp/serverMcp.csproj",
         "projectName": "serverMcp",
-        "projectPath": "C:\\Users\\Francesco\\Desktop\\flc\\serverMcp\\serverMcp.csproj",
-        "packagesPath": "C:\\Users\\Francesco\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Francesco\\Desktop\\flc\\serverMcp\\obj\\",
+        "projectPath": "/Users/leo/Desktop/progetto-flc/tutorial-mcp/serverMcp/serverMcp.csproj",
+        "packagesPath": "/Users/leo/.nuget/packages/",
+        "outputPath": "/Users/leo/Desktop/progetto-flc/tutorial-mcp/serverMcp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Francesco\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/Users/leo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -37,7 +37,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "10.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -49,7 +50,7 @@
             },
             "ModelContextProtocol": {
               "target": "Package",
-              "version": "[0.6.0-preview.1, )"
+              "version": "[0.7.0-preview.1, )"
             }
           },
           "imports": [
@@ -68,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.417/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/10.0.102/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
